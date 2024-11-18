@@ -1,0 +1,24 @@
+# Ignorowanie katalogów .venv (w każdej z laboratoriów)
+**/.venv/
+
+# Ignorowanie plików systemowych i środowiskowych
+.DS_Store
+
+# Ignorowanie plików kompilacji Python (np. pliki *.pyc)
+__pycache__/
+*.pyc
+
+# Ignorowanie plików archiwów (np. zip)
+*.zip
+
+# Ignorowanie plików obrazów wynikowych
+*.bmp
+*.jpg
+
+# Ignorowanie plików Jupyter notebook z rozszerzeniem .ipynb_checkpoints (auto-save w Jupyter)
+.ipynb_checkpoints/
+
+# Ignorowanie plików konfiguracji środowiska IDE (np. VS Code)
+.vscode/
+.idea/
+
